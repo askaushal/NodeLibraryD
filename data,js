@@ -1,0 +1,54 @@
+var newCustomer = [
+    {
+        FirstName: "Amarjeet",
+        LastName: "Singh",
+        DOB: "1/10/1991",
+        SSN: "345436457",
+        Telephone: "6104004671",
+        Address1: "649 S Henderson Rd"
+        UnitType: "Apt",
+        UnitNumber: "C614",
+        City: "King of Prussia",
+        State: "PA",
+        ZipCode: "19406",
+        Zip4Code: "",
+        Email: "amarjeet_singh2@comcast.com"
+    },
+    {
+        FirstName: "Rishi",
+        LastName: "Bedi",
+        DOB: "12/10/1988",
+        SSN: "567657768",
+        Telephone: "6454646231",
+        Address1: "2 Logan Square"
+        UnitType: "",
+        UnitNumber: "",
+        City: "Philadelphia",
+        State: "PA",
+        ZipCode: "19103",
+        Zip4Code: "",
+        Email: "bedirishi@gmail.com"
+    }
+
+];
+
+var existingCustomer = [
+    {
+        FirstName: "Tarun",
+        LastName: "kumar",
+        AccountNumber: "8069898985646"
+        DOB: "1/10/1993",
+        SSN: "456481352",
+        Telephone: "9744566613",
+        Address1: "649 S Henderson Rd"
+        UnitType: "Apt",
+        UnitNumber: "C208",
+        City: "King of Prussia",
+        State: "PA",
+        ZipCode: "19406",
+        Zip4Code: "",
+        Email: "tarunkumar@gmail.com"
+    }
+];
+
+module.exports = newCustomer;
