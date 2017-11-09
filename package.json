@@ -24,6 +24,6 @@
     "gulp-nodemon": "^2.2.1",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
-    "wiredep": "^4.0.0"
+    "wiredep": "^4.0.0" 
   }
 }
