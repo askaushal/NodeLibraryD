@@ -10,7 +10,7 @@ var createdb = function(){
         db.close();
     });
     
-}
+};
 
 var createNewCustomerCollection = function(){
     var MongoClient = require('mongodb').MongoClient;
@@ -25,7 +25,7 @@ var createNewCustomerCollection = function(){
             db.close();
         });
     });
-}
+};
 
 var addNewCustomerRecords=function(records){
     var MongoClient = require('mongodb').MongoClient;
@@ -39,13 +39,10 @@ var addNewCustomerRecords=function(records){
             db.close();
         });
     });
-}
+};
 
-var createExistingCustomerCollection = function(){
-
-}
 
 module.exports = createdb;
-module.exports = createcreateNewCustomerCollection;
+//module.exports = createcreateNewCustomerCollection;
 module.exports = addNewCustomerRecords;
 
